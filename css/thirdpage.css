@@ -1,0 +1,75 @@
+
+.t-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:8% ;
+    gap: 15%;
+}
+
+.t-heading{
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.t-btn1, .t-btn2{
+    border-radius: 50%;
+    font-size: 30px;
+    width: 70px;
+    height: 70px;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid white;
+    box-shadow: 0px 8px 18px rgb(213, 212, 212);
+}
+.t-btn1:hover, .t-btn2:hover{
+    background-color: black;
+    color: white;
+}
+
+.t-img-container{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    overflow: hidden;
+}
+
+@keyframes scroll-left {
+    from {transform: translateX(0)}
+    to {transform: translateX(-550%)}
+}
+
+.t-img{
+    width: 400px;
+    height: 450px;
+    position: relative;
+    margin-left: 5px;
+    filter: brightness(65%);
+    overflow: hidden;
+    
+}
+.t-ing-div{
+    animation: scroll-left 50s linear 4s infinite;
+}
+
+.t-img:hover{
+    opacity: 0.9;
+    overflow: hidden;
+    transform:scale(1.03);
+    transition-timing-function: ease-out;
+    transition: width 1s,transform 1s;
+    overflow: hidden;
+}
+
+.t-img-text{
+    position: absolute;
+    bottom: 30px;
+    padding-left:12px;
+    color: white;
+    margin-left: 140px;
+    transform: translate(-50%);
+    z-index: 1;
+    word-wrap: break-word;
+    overflow: hidden;
+    width: 300px;text-align: center;
+}

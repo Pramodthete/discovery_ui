@@ -1,0 +1,11 @@
+.fr-div2{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    gap: 20px;
+}
+
+.fourth-page{
+    padding: 10%;
+}
+

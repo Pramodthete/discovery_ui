@@ -1,0 +1,20 @@
+.second-page{
+    display: flex;
+    flex-wrap: wrap;
+    padding:8% ;
+    gap: 15%;
+}
+.s-textimg1{
+    width: 40%;
+    line-height: 2.2;
+}
+
+.s-img2{
+    width: 45%;
+    height: 600px;
+}
+
+.s-heading{
+    font-size: 50px;
+    line-height: 1.0;
+}
