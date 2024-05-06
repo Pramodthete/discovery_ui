@@ -1,10 +1,10 @@
 
 function myFunction(x) {
     x.classList.toggle("change");
-    $('.header').hide();
-        $('.home').hide();
-        $('.menu').css('background',"red").show().slideDown(); 
-        x.classList.show();   
+    // $('.header').hide();
+    //     $('.home').hide();
+    //     $('.menu').css('background',"red").show().slideDown(); 
+    //     x.classList.show();   
 }
 
 $('.menu').ready(function(){
