@@ -6,16 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    <title>Front Page</title>
-    <link rel="stylesheet" href="../css/frontpage.css">
+    <title>Gallery</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
 
+    <link rel="stylesheet" href="../css/frontpage.css">
+    <link rel="stylesheet" href="../css/secondpage.css">
+    <link rel="stylesheet" href="../css/thirdpage.css">
+    <link rel="stylesheet" href="../css/fourthpage.css">
+    <link rel="stylesheet" href="../css/gallery.css">
+
+    <script src="../js/frontpage.js"></script>
+    <script src="../js/secondpage.js"></script>
+    <script src="../js/thirdpage.js"></script>
     <script src="../js/frontpage.js"></script>
 </head>
 
-<body>
-
+<body style="background-color: black;">
     <header>
-        <a href="#" class="brand">
+        <div href="#" class="brand">
             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 433.6 97.1"
                 style="enable-background:new 0 0 433.6 97.1;" xml:space="preserve">
@@ -297,14 +305,14 @@
                     </g>
                 </g>
             </svg>
-        </a>
+        </div>
         <div class="nevigation">
             <div class="nevigation-items">
                 <a href="">About DLC</a>
-                <a href="">Our Worlds</a>
+                <a href="./ourWorlds.html">Our Worlds</a>
                 <a href="">Experiences</a>
                 <a href="">Company</a>
-                <a href="">Gallery</a>
+                <a style="text-decoration: underline;" href="./gallery.html">Gallery</a>
             </div>
             <div class="x" onclick="myFunction(this)">
                 <div class="bar1"></div>
@@ -313,55 +321,101 @@
             </div>
         </div>
     </header>
-
     <div class="home">
-        <video style="width: 100%;margin-top: -10%;"
-            src="https://player.vimeo.com/progressive_redirect/playback/769653111/rendition/1080p/file.mp4?loc=external&amp;signature=ed68edc6f93d6322ab788f73a6c328d62ef27555627cc8b2c6a85fdaf8e4c696"
-            data-length="261" muted="" loop="" autoplay="" playsinline="">
-        </video>
-        <div class="content">
-            <p style="font-family: Georgia, 'Times New Roman', Times, serif; font-weight: lighter;">Discover <br> your
-                world</p>
+        <img style="width: 100%; height: 400px;"
+            src="https://discoverylandco.com/imager/images/9997/Bakers-Bay-Golf-and-Ocean-Club_35d31212c7a2d4dccdff99afa3f88af5.png"
+            alt="">
+        <div class="content" style="top: 25%; left: 15%;">
+            <p style="font-family: Georgia, 'Times New Roman', Times, serif; font-weight: lighter;">Gallery</p>
         </div>
 
+    </div>
+
+    <div class="g-imgcontain">
         <div>
-            <div class="l-text">
-                <p class="ftext">Pay a Grand Golf & Ocean Club</p><br>
-                <p>Scroll To Explore</p>
+            <div>
+                <img style="width: 420px;"
+                    src="https://discoverylandco.com/imager/images/7390/Stocksy_txp3615512ad2e200_OriginalDelivery_1580323-1_210301_201432_d169f13de117664acdaa1543841b7c16.jpg"
+                    alt="">
             </div>
-            <div class="r-btn">
-                <button class="btn">
-                    <p class="down-arrow" style="font-size: 50px;">&#8595;</p>
-                </button>
+            <div style="font-size: large; text-align: center;padding: 8%; color: white;">Outdoor Pursuits</div>
+        </div>
+        <div>
+            <div>
+                <img style="width: 420px;"
+                    src="https://discoverylandco.com/imager/images/11031/Barefoot-golf-at-Gozzer-4_d169f13de117664acdaa1543841b7c16.jpg"
+                    alt="">
             </div>
+            <div style="font-size: large; text-align: center;padding: 8%; color: white;">Golf</div>
+        </div>
+        <div>
+            <div>
+                <img style="width: 423px;"
+                    src="https://discoverylandco.com/imager/images/11021/beach-front-dining-with-friends_d169f13de117664acdaa1543841b7c16.jpg"
+                    alt="">
+            </div>
+            <div style="font-size: large; text-align: center;padding: 8%; color: white;">Lifestyle</div>
+        </div>
+        <div>
+            <div>
+                <img style="width: 420px;"
+                    src="https://discoverylandco.com/imager/images/9909/lake-view-skiing-in-lake-tahoe_d169f13de117664acdaa1543841b7c16.jpg"
+                    alt="">
+            </div>
+            <div style="font-size: large; text-align: center;padding: 8%; color: white;">Landscapes</div>
+        </div>
+        <div>
+            <div>
+                <img style="width: 420px;"
+                    src="https://discoverylandco.com/imager/images/9913/luxury-clubhouse-yellowstone-club_d169f13de117664acdaa1543841b7c16.jpg"
+                    alt="">
+            </div>
+            <div style="font-size: large; text-align: center;padding: 8%; color: white;">Clubhouses</div>
+        </div>
+        <div>
+            <div>
+                <img style="width: 423px;"
+                    src="https://discoverylandco.com/imager/images/7406/Wellness-gallery-1_11014826b3e36b3697374f276a89b517-2_210301_202121_d169f13de117664acdaa1543841b7c16.jpg"
+                    alt="">
+            </div>
+            <div style="font-size: large; text-align: center;padding: 8%; color: white;">Wellness</div>
         </div>
     </div>
 
-    <div class="second-page">
-        <div class="s-heading">
-            <div>Welcome to</div>
-            <span>Discovery</span>
+    <footer class="footer">
+        <div class="foot1">
+            <div style="width: 50%;height: 200px;">
+                <img style="width: 10%;" src="./favicon.svg" alt="">
+            </div>
+            <div style="display: flex;flex-wrap: wrap;gap: 50px;color: white;">
+                <div style="display: flex;flex-direction: column;gap: 20px;">
+                    <div style="font-size: small;color: rgb(117, 116, 116);">GET IN TOUCH</div>
+                    <div>(480) 624-5200</div>
+                    <div style="text-decoration: underline;">mail@discoverylandco.com</div>
+                    <div style="font-size: small;color: rgb(117, 116, 116);">REAL ESTATE</div>
+                    <div style="text-decoration: underline;">realestate@discoverylandco.com</div>
+                </div>
+                <div style="display: flex;flex-direction: column;gap: 20px;">
+                    <div><a href="">About DLC</a> </div>
+                    <div><a href="">Our Worlds</a> </div>
+                    <div><a href="">Experiences</a> </div>
+                    <div><a href="">Company</a> </div>
+                    <div><a href="">Gallery</a> </div>
+                </div>
+                <div style="display: flex;flex-direction: column;gap: 20px;">
+                    <div><a href="">Careers</a> </div>
+                    <div><a href="">Foundation</a> </div>
+                    <div><a href="">Company</a> </div>
+                    <div><a href="">Contact</a> </div>
+                    <div><a href="">Privacy</a> </div>
+                </div>
+            </div>
         </div>
-        <div class="s-text">
-            <div>Explore the unique atmosphere of our private residential</div>
-            <div>communities and experience the Discovery difference.</div>
-            <div>This is classic, comfortable, elevated living in nature’s </div>
-            <div>most spectacular settings. Find your unique world—a </div>
-            <div>place where your family can create unforgettable </div>
-            <div>moments, together. </div>
+        <div class="foot2">
+            <div style="width: 88%;">Discovery Land Company. All rights reserved.</div>
+            <div style="">Site by Outpost</div>
         </div>
-        <div class="s-img1">
-
-            <img src="https://discoverylandco.com/imager/images/14854/Barefoot-golf-at-gozzer-5_2023-08-29-190320_xynk_df8586bb4c14d18f77324f7452f392cd.jpg"
-                alt="">
-        </div>
-        
-        <div class="s-img2">
-
-            <img src="https://discoverylandco.com/imager/images/11062/Yellowstone-Club-2_76fe09b415dcada4f46ba4114338562c.png"
-                alt="">
-        </div>
-    </div>
+    </footer>
 </body>
 
 </html>

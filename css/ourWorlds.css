@@ -1,0 +1,16 @@
+.o-imghead{
+    font-size: 15px;
+    padding-top: 4%;
+    color: white;
+}
+
+.o-imgtext{
+    color: rgb(161, 158, 158);
+    padding-top: 1%;
+    padding-bottom: 18%;
+    font-size: small;
+}
+
+img{
+    width: 340px;
+}

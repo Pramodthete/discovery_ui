@@ -1,0 +1,35 @@
+.g-imgcontain{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer{
+    padding: 10%;
+    background-color: rgb(34, 43, 37);
+}
+
+.foot1{
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.foot2{
+ display: flex;
+ flex-wrap: wrap;
+ color: white;padding-top: 10%;
+ font-size: small;
+ color: rgb(186, 185, 185);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    transform: scale(0);
+    transition: transform 0.4s ease;
+}
+a:hover{
+    transform: scale(1);
+    text-decoration: underline;
+    width: 100%;
+}
