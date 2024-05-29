@@ -5,6 +5,19 @@
     font-family: "Poppins", sans-serif;
 }
 
+.mainVideo{
+    position: sticky;
+    /* width: 1517px; */
+    /* margin-top: -7%; */
+    /* margin-left: -3%; */
+    margin-left: -1.5%;
+    min-height: 100%;
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+
 header {
     z-index: 1;
     position: absolute;
@@ -25,6 +38,21 @@ header .brand {
     text-decoration: none;
     width: 15%;
 }
+
+@media screen and (max-width:900px) {
+    header .brand {
+        width: 150px;
+    }
+    header{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .mainVideo{
+        margin-left: 0%;
+    }
+    
+}
+
 
 header .nevigation {
     position: relative;
