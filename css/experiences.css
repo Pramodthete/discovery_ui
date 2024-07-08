@@ -58,7 +58,7 @@
         padding-bottom: 40%;
     }
     #im2{
-        width:200%;
+        width:100%;
     }
     .hName{
         margin-left: -60px;
@@ -67,7 +67,7 @@
         margin-left: 0%;
     }
     .s-img2{
-        width: 50%;
+        width: fit-content;
     }
     #h2{
         font-size: 20px;

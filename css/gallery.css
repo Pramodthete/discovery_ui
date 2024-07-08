@@ -32,3 +32,15 @@ a:hover{
     text-decoration: underline;
     width: 100%;
 }
+#im{
+    width: 506px;
+}
+
+@media screen and (max-width:500px) {
+    #im{
+        width: 100%;
+    }
+    .content{
+        margin-top: 10%;
+    }
+}
