@@ -125,22 +125,22 @@ let data = [
 
   let imgData=[
     {
-        url:'https://discoverylandco.com/imager/images/248/Cordevalle-Map_397186feb8bd51bb37bc24fc2b9b500f.jpg'
+        url:'https://www.datocms-assets.com/128889/1717077744-glasert_20220630sr_3213.jpg?fit=max&h=1200&w=1000'
     },
     {
-        url:'https://discoverylandco.com/imager/images/14936/Screen-Shot-2023-08-29-at-2.32.54-PM_397186feb8bd51bb37bc24fc2b9b500f.png'
+        url:'https://www.datocms-assets.com/128889/1714133620-polo_match_428.jpeg?fit=max&h=1200&w=1000'
     },
     {
-        url:'https://discoverylandco.com/imager/images/14898/Screen-Shot-2023-08-29-at-1.47.55-PM_397186feb8bd51bb37bc24fc2b9b500f.png'
+        url:'https://www.datocms-assets.com/128889/1714143172-seaglass-lifestyle-photoshoot-raws-1015-of-1188_2023-07-20-153227_mvlx-copy.jpg?fit=max&h=1200&w=1000'
     },
     {
-        url:'https://discoverylandco.com/imager/images/395/hideaway3-Map_397186feb8bd51bb37bc24fc2b9b500f.jpg'
+        url:'https://www.datocms-assets.com/128889/1717077616-matt6402-1.jpeg?fit=max&h=1200&w=1000'
     },
     {
-        url:'https://discoverylandco.com/imager/images/773/summit-Map_190718_114312_397186feb8bd51bb37bc24fc2b9b500f.jpg'
+        url:'https://www.datocms-assets.com/128889/1714143438-gettyimages-1366370947-2.jpg?fit=max&h=1200&w=1000'
     },
     {
-        url:'https://discoverylandco.com/imager/images/245/Estancia-Map_397186feb8bd51bb37bc24fc2b9b500f.jpg'
+        url:'https://www.datocms-assets.com/128889/1714141127-beach_girl_in_white_001-1-copy.jpg?fit=max&h=1200&w=1000'
     }
   ]
 

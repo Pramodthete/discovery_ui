@@ -1,14 +1,25 @@
 .lastpage{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     width: 100%;
+    position: relative;
 }
 
 #limg{
     width: 505px;
     height: 800px;
 }
-@media screen and (max-width:500px) {
+@media screen and (max-width:530px) {
+    .lastpage{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    #limg{
+        width: 100% !important;height: 100%;
+    }
+}
+@media screen and (max-width:1516px) {
     #limg{
         width: 100%;
         height: 800px;

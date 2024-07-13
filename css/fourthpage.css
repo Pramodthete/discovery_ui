@@ -20,7 +20,7 @@
 
 .fr-divs{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     width: 100%;
     gap: 2%;
     background-color: rgb(248, 247, 248);
@@ -84,4 +84,5 @@
 .fr-divb{
     width: 100%;
 }
+
 
