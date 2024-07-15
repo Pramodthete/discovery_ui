@@ -107,21 +107,21 @@ header .nevigation .nevigation-items a:hover::before{
     transition: 0.4s;
 }
 .bar3 {
-    width: 15px;
+    width: 25px;
     height: 2px;
     background-color: #fff;
     margin: 6px 0;
     transition: 0.4s;
 }
 .change .bar1 {
-    transform: translate(0, 9px) rotate(-45deg);
+    transform: translate(0, 9px) rotate(-40deg);
 }
 .change .bar2 {
     opacity: 0;
 }
 .change .bar3 {
     width: 25px;
-    transform: translate(0, -9px) rotate(45deg);
+    transform: translate(0, -9px) rotate(40deg);
 }
 
 
@@ -152,7 +152,7 @@ header .nevigation .nevigation-items a:hover::before{
     position: absolute;
     z-index: 1;
     font-size: 70px;
-    width: 80px;
+    width: 70px;
     padding-bottom: 4px;
     border-radius: 50%;
     overflow: hidden;

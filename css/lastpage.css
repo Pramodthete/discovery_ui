@@ -14,14 +14,21 @@
         display: flex;
         flex-wrap: wrap;
         width: 100%;
+        gap: 0;
     }
     #limg{
-        width: 100% !important;height: 100%;
+        width: 100vw !important;height: 300px !important;
+        padding-bottom: 100px;
+        margin: 0;
     }
 }
 @media screen and (max-width:1516px) {
     #limg{
         width: 100%;
         height: 800px;
+    }
+    .lastpage div{
+        width: fit-content;
+        height: fit-content;
     }
 }
